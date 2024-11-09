@@ -1,6 +1,6 @@
 # Sign in with Google
 
-Basic sign in with apple demo with video tutorial.
+Basic sign in with google demo with video tutorial.
 
 <img src="./demo.png"/>
 

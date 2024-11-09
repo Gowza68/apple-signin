@@ -3,9 +3,9 @@ import { account } from "./appwrite";
 import { OAuthProvider } from "appwrite";
 
 const app = document.getElementById("app");
-const loginBtn = document.getElementById("btn-siwa");
+const loginBtn = document.getElementById("btn-siwg");
 
-const loginSIWA = async () => {
+const loginSIWG = async () => {
     account.createOAuth2Session(
         OAuthProvider.Google,
         "http://localhost:5173",
@@ -24,4 +24,4 @@ const init = async () => {
 
 init();
 
-loginBtn.addEventListener("click", loginSIWA);
+loginBtn.addEventListener("click", loginSIWG);
