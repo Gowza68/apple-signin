@@ -6,16 +6,12 @@ const app = document.getElementById("app");
 const loginBtn = document.getElementById("btn-siwa");
 
 const loginSIWA = async () => {
-
-    await account.createOAuth2Session(
+    account.createOAuth2Session(
         OAuthProvider.Google,
-        "http://localhost:5173/#success",
-        "http://localhost:5173/#fail"
+        "http://localhost:5173",
+        "http://localhost:/5173/fail"
     );
-
 };
-
-
 
 const init = async () => {
     try {
