@@ -2,7 +2,7 @@
 
 Basic sign in with apple demo with video tutorial.
 
-<img src="./demo.gif"/>
+<img src="./demo.png"/>
 
 ### Getting started
 
