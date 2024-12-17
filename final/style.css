@@ -11,9 +11,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
-#btn-siwa{
+#btn-siwg{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +27,7 @@
 
 }
 
-#btn-siwa img{
+#btn-siwg img{
   height: 30px;
 
   object-fit: contain;
